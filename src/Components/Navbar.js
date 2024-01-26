@@ -11,6 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineRead
 } from "react-icons/ai";
 
 function NavBar() {
@@ -84,6 +85,16 @@ function NavBar() {
               >
                 <MdOutlineContactMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="resume-download" 
+              style={{  marginTop:"12px", outline:"none"}}
+            >
+              <a href="/pragati_kabra_cv.pdf" download='resume.pdf'>
+                <AiOutlineRead
+                />{" "}
+                Resume
+              </a>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

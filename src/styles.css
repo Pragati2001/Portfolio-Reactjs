@@ -266,6 +266,14 @@ html {
 	transition: all 0.3s ease-out 0s;
 }
 
+/* added by pragati */
+.resume-download{
+	margin-top: 12px;
+	outline: none;
+	color: white;
+	/* cursor:pointer; */
+}
+
 .navbar-nav .nav-item a:hover::after {
 	width: 100%;
 }

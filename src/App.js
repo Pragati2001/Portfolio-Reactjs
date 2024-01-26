@@ -24,6 +24,8 @@ export default function App() {
   }, []);
 
   return (
+    <div>
+    
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -38,5 +40,6 @@ export default function App() {
         <Footer />
       </div>
     </Router>
+    </div>
   );
 }

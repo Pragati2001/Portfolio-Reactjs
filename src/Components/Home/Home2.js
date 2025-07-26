@@ -18,14 +18,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a final year B.Tech Student with specialization in Computer
+              Hi, I'm <span className="purple">Pragati Kabra</span>, a B.Tech graduate in Computer Science
+            with a strong interest in data science. 
+            I have hands-on experience in building AI models for 
+            stock price prediction using <span className="purple">Python, Pandas, NumPy, TensorFlow, 
+            and Keras.</span> I'm also familiar with machine learning techniques 
+            and data preprocessing. Through the Newton Data Science Certification,
+             I've gained skills in SQL, Excel, and Power BI. I have a solid 
+             understanding of <span className="purple">data structures and problem-solving</span>. I'm passionate 
+             about leveraging data to create impactful, real-world solutions.
+              {/* I am a final year B.Tech Student with specialization in Computer
               Science .
               <br />
               I am mostly interested in frontend and backend development . I
               have
               <br />
               decent knowledge of data structure and algorithm and keep on
-              sharpening my Skills
+              sharpening my Skills */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">

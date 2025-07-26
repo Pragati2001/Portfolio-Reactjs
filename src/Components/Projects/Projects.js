@@ -26,6 +26,19 @@ function Projects() {
             <ProjectCard
               imgPath={Scribbl}
               isBlog={false}
+              title="Zomato "
+              description="Realtime Multiplayer pictionary game driven by websockets.Reactjs for
+client side and nodejs and express fro server side .Game and room
+management by react-redux"
+              techstack="Reactjs | Nodejs | Socket.io"
+              link="https://github.com/Pragati2001/Skribbl-game"
+              git="https://github.com/Pragati2001/Skribbl-game"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Scribbl}
+              isBlog={false}
               title="Skribbl Game"
               description="Realtime Multiplayer pictionary game driven by websockets.Reactjs for
 client side and nodejs and express fro server side .Game and room
